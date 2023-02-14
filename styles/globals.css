@@ -1,3 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "bulgathi";
+  src: url("/fonts/bulgathi.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
 html,
 body {
   padding: 0;
@@ -13,6 +24,13 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p {
+  font-weight: 400;
 }
 
 @media (prefers-color-scheme: dark) {
